@@ -8,13 +8,17 @@
 
 import SpriteKit
 
+
 class GamePlayScene: SKScene {
+    
+    var player = Player()
     
     override func didMove(to view: SKView) {
         initialize()
     }
     
     override func update(_ currentTime: TimeInterval) {
+        // this will constanlty check to make sure background and grounds are visible
          movingBackgroundsAndGrounds()
     }
     
