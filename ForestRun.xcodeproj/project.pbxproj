@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F12DCFE91E7F663000A6DEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12DCFE81E7F663000A6DEDF /* AppDelegate.swift */; };
+		F12DCFED1E7F663000A6DEDF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F12DCFEC1E7F663000A6DEDF /* Actions.sks */; };
+		F12DCFF11E7F663000A6DEDF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12DCFF01E7F663000A6DEDF /* GameViewController.swift */; };
+		F12DCFF41E7F663000A6DEDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12DCFF21E7F663000A6DEDF /* Main.storyboard */; };
+		F12DCFF61E7F663000A6DEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12DCFF51E7F663000A6DEDF /* Assets.xcassets */; };
+		F12DCFF91E7F663000A6DEDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12DCFF71E7F663000A6DEDF /* LaunchScreen.storyboard */; };
+		F12DD0041E7F663000A6DEDF /* ForestRunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12DD0031E7F663000A6DEDF /* ForestRunTests.swift */; };
+		F12DD00F1E7F663000A6DEDF /* ForestRunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12DD00E1E7F663000A6DEDF /* ForestRunUITests.swift */; };
+		F12DD02A1E7F682200A6DEDF /* Run 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0221E7F682200A6DEDF /* Run 1.png */; };
+		F12DD02B1E7F682200A6DEDF /* Run 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0231E7F682200A6DEDF /* Run 2.png */; };
+		F12DD02C1E7F682200A6DEDF /* Run 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0241E7F682200A6DEDF /* Run 3.png */; };
+		F12DD02D1E7F682200A6DEDF /* Run 4.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0251E7F682200A6DEDF /* Run 4.png */; };
+		F12DD02E1E7F682200A6DEDF /* Run 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0261E7F682200A6DEDF /* Run 5.png */; };
+		F12DD02F1E7F682200A6DEDF /* Run 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0271E7F682200A6DEDF /* Run 6.png */; };
+		F12DD0301E7F682200A6DEDF /* Run 7.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0281E7F682200A6DEDF /* Run 7.png */; };
+		F12DD0311E7F682200A6DEDF /* Run 8.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0291E7F682200A6DEDF /* Run 8.png */; };
+		F12DD0331E7F811800A6DEDF /* GamePlayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0321E7F811800A6DEDF /* GamePlayScene.sks */; };
+		F12DD0351E7F814D00A6DEDF /* GamePlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12DD0341E7F814D00A6DEDF /* GamePlayScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F12DD0001E7F663000A6DEDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F12DCFDD1E7F663000A6DEDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F12DCFE41E7F663000A6DEDF;
+			remoteInfo = ForestRun;
+		};
+		F12DD00B1E7F663000A6DEDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F12DCFDD1E7F663000A6DEDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F12DCFE41E7F663000A6DEDF;
+			remoteInfo = ForestRun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F12DCFE51E7F663000A6DEDF /* ForestRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForestRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12DCFE81E7F663000A6DEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F12DCFEC1E7F663000A6DEDF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F12DCFF01E7F663000A6DEDF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F12DCFF31E7F663000A6DEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F12DCFF51E7F663000A6DEDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F12DCFF81E7F663000A6DEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F12DCFFA1E7F663000A6DEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12DCFFF1E7F663000A6DEDF /* ForestRunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForestRunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12DD0031E7F663000A6DEDF /* ForestRunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestRunTests.swift; sourceTree = "<group>"; };
+		F12DD0051E7F663000A6DEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12DD00A1E7F663000A6DEDF /* ForestRunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForestRunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12DD00E1E7F663000A6DEDF /* ForestRunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestRunUITests.swift; sourceTree = "<group>"; };
+		F12DD0101E7F663000A6DEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12DD0221E7F682200A6DEDF /* Run 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 1.png"; sourceTree = "<group>"; };
+		F12DD0231E7F682200A6DEDF /* Run 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 2.png"; sourceTree = "<group>"; };
+		F12DD0241E7F682200A6DEDF /* Run 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 3.png"; sourceTree = "<group>"; };
+		F12DD0251E7F682200A6DEDF /* Run 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 4.png"; sourceTree = "<group>"; };
+		F12DD0261E7F682200A6DEDF /* Run 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 5.png"; sourceTree = "<group>"; };
+		F12DD0271E7F682200A6DEDF /* Run 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 6.png"; sourceTree = "<group>"; };
+		F12DD0281E7F682200A6DEDF /* Run 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 7.png"; sourceTree = "<group>"; };
+		F12DD0291E7F682200A6DEDF /* Run 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 8.png"; sourceTree = "<group>"; };
+		F12DD0321E7F811800A6DEDF /* GamePlayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GamePlayScene.sks; sourceTree = "<group>"; };
+		F12DD0341E7F814D00A6DEDF /* GamePlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F12DCFE21E7F663000A6DEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12DCFFC1E7F663000A6DEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12DD0071E7F663000A6DEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F12DCFDC1E7F663000A6DEDF = {
+			isa = PBXGroup;
+			children = (
+				F12DCFE71E7F663000A6DEDF /* ForestRun */,
+				F12DD01D1E7F674000A6DEDF /* Classes */,
+				F12DD01E1E7F674D00A6DEDF /* Scenes */,
+				F12DD01C1E7F672100A6DEDF /* Assets */,
+				F12DD0021E7F663000A6DEDF /* ForestRunTests */,
+				F12DD00D1E7F663000A6DEDF /* ForestRunUITests */,
+				F12DCFE61E7F663000A6DEDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F12DCFE61E7F663000A6DEDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F12DCFE51E7F663000A6DEDF /* ForestRun.app */,
+				F12DCFFF1E7F663000A6DEDF /* ForestRunTests.xctest */,
+				F12DD00A1E7F663000A6DEDF /* ForestRunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F12DCFE71E7F663000A6DEDF /* ForestRun */ = {
+			isa = PBXGroup;
+			children = (
+				F12DCFE81E7F663000A6DEDF /* AppDelegate.swift */,
+				F12DCFEC1E7F663000A6DEDF /* Actions.sks */,
+				F12DCFF01E7F663000A6DEDF /* GameViewController.swift */,
+				F12DCFF21E7F663000A6DEDF /* Main.storyboard */,
+				F12DCFF51E7F663000A6DEDF /* Assets.xcassets */,
+				F12DCFF71E7F663000A6DEDF /* LaunchScreen.storyboard */,
+				F12DCFFA1E7F663000A6DEDF /* Info.plist */,
+			);
+			path = ForestRun;
+			sourceTree = "<group>";
+		};
+		F12DD0021E7F663000A6DEDF /* ForestRunTests */ = {
+			isa = PBXGroup;
+			children = (
+				F12DD0031E7F663000A6DEDF /* ForestRunTests.swift */,
+				F12DD0051E7F663000A6DEDF /* Info.plist */,
+			);
+			path = ForestRunTests;
+			sourceTree = "<group>";
+		};
+		F12DD00D1E7F663000A6DEDF /* ForestRunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F12DD00E1E7F663000A6DEDF /* ForestRunUITests.swift */,
+				F12DD0101E7F663000A6DEDF /* Info.plist */,
+			);
+			path = ForestRunUITests;
+			sourceTree = "<group>";
+		};
+		F12DD01C1E7F672100A6DEDF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F12DD0201E7F677200A6DEDF /* Sounds */,
+				F12DD01F1E7F676D00A6DEDF /* Player */,
+			);
+			name = Assets;
+			path = ForestRun;
+			sourceTree = "<group>";
+		};
+		F12DD01D1E7F674000A6DEDF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F12DD0341E7F814D00A6DEDF /* GamePlayScene.swift */,
+			);
+			name = Classes;
+			path = ForestRun;
+			sourceTree = "<group>";
+		};
+		F12DD01E1E7F674D00A6DEDF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F12DD0321E7F811800A6DEDF /* GamePlayScene.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		F12DD01F1E7F676D00A6DEDF /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				F12DD0221E7F682200A6DEDF /* Run 1.png */,
+				F12DD0231E7F682200A6DEDF /* Run 2.png */,
+				F12DD0241E7F682200A6DEDF /* Run 3.png */,
+				F12DD0251E7F682200A6DEDF /* Run 4.png */,
+				F12DD0261E7F682200A6DEDF /* Run 5.png */,
+				F12DD0271E7F682200A6DEDF /* Run 6.png */,
+				F12DD0281E7F682200A6DEDF /* Run 7.png */,
+				F12DD0291E7F682200A6DEDF /* Run 8.png */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		F12DD0201E7F677200A6DEDF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F12DCFE41E7F663000A6DEDF /* ForestRun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12DD0131E7F663000A6DEDF /* Build configuration list for PBXNativeTarget "ForestRun" */;
+			buildPhases = (
+				F12DCFE11E7F663000A6DEDF /* Sources */,
+				F12DCFE21E7F663000A6DEDF /* Frameworks */,
+				F12DCFE31E7F663000A6DEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForestRun;
+			productName = ForestRun;
+			productReference = F12DCFE51E7F663000A6DEDF /* ForestRun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F12DCFFE1E7F663000A6DEDF /* ForestRunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12DD0161E7F663000A6DEDF /* Build configuration list for PBXNativeTarget "ForestRunTests" */;
+			buildPhases = (
+				F12DCFFB1E7F663000A6DEDF /* Sources */,
+				F12DCFFC1E7F663000A6DEDF /* Frameworks */,
+				F12DCFFD1E7F663000A6DEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F12DD0011E7F663000A6DEDF /* PBXTargetDependency */,
+			);
+			name = ForestRunTests;
+			productName = ForestRunTests;
+			productReference = F12DCFFF1E7F663000A6DEDF /* ForestRunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F12DD0091E7F663000A6DEDF /* ForestRunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12DD0191E7F663000A6DEDF /* Build configuration list for PBXNativeTarget "ForestRunUITests" */;
+			buildPhases = (
+				F12DD0061E7F663000A6DEDF /* Sources */,
+				F12DD0071E7F663000A6DEDF /* Frameworks */,
+				F12DD0081E7F663000A6DEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F12DD00C1E7F663000A6DEDF /* PBXTargetDependency */,
+			);
+			name = ForestRunUITests;
+			productName = ForestRunUITests;
+			productReference = F12DD00A1E7F663000A6DEDF /* ForestRunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F12DCFDD1E7F663000A6DEDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Caroline Davis";
+				TargetAttributes = {
+					F12DCFE41E7F663000A6DEDF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2UNXUT4D3C;
+						ProvisioningStyle = Automatic;
+					};
+					F12DCFFE1E7F663000A6DEDF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2UNXUT4D3C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F12DCFE41E7F663000A6DEDF;
+					};
+					F12DD0091E7F663000A6DEDF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2UNXUT4D3C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F12DCFE41E7F663000A6DEDF;
+					};
+				};
+			};
+			buildConfigurationList = F12DCFE01E7F663000A6DEDF /* Build configuration list for PBXProject "ForestRun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F12DCFDC1E7F663000A6DEDF;
+			productRefGroup = F12DCFE61E7F663000A6DEDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F12DCFE41E7F663000A6DEDF /* ForestRun */,
+				F12DCFFE1E7F663000A6DEDF /* ForestRunTests */,
+				F12DD0091E7F663000A6DEDF /* ForestRunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F12DCFE31E7F663000A6DEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12DD0331E7F811800A6DEDF /* GamePlayScene.sks in Resources */,
+				F12DCFF41E7F663000A6DEDF /* Main.storyboard in Resources */,
+				F12DD02D1E7F682200A6DEDF /* Run 4.png in Resources */,
+				F12DD02B1E7F682200A6DEDF /* Run 2.png in Resources */,
+				F12DD02F1E7F682200A6DEDF /* Run 6.png in Resources */,
+				F12DD0301E7F682200A6DEDF /* Run 7.png in Resources */,
+				F12DCFF61E7F663000A6DEDF /* Assets.xcassets in Resources */,
+				F12DD02C1E7F682200A6DEDF /* Run 3.png in Resources */,
+				F12DCFF91E7F663000A6DEDF /* LaunchScreen.storyboard in Resources */,
+				F12DD02A1E7F682200A6DEDF /* Run 1.png in Resources */,
+				F12DD02E1E7F682200A6DEDF /* Run 5.png in Resources */,
+				F12DD0311E7F682200A6DEDF /* Run 8.png in Resources */,
+				F12DCFED1E7F663000A6DEDF /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12DCFFD1E7F663000A6DEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12DD0081E7F663000A6DEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F12DCFE11E7F663000A6DEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12DD0351E7F814D00A6DEDF /* GamePlayScene.swift in Sources */,
+				F12DCFF11E7F663000A6DEDF /* GameViewController.swift in Sources */,
+				F12DCFE91E7F663000A6DEDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12DCFFB1E7F663000A6DEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12DD0041E7F663000A6DEDF /* ForestRunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12DD0061E7F663000A6DEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12DD00F1E7F663000A6DEDF /* ForestRunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F12DD0011E7F663000A6DEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F12DCFE41E7F663000A6DEDF /* ForestRun */;
+			targetProxy = F12DD0001E7F663000A6DEDF /* PBXContainerItemProxy */;
+		};
+		F12DD00C1E7F663000A6DEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F12DCFE41E7F663000A6DEDF /* ForestRun */;
+			targetProxy = F12DD00B1E7F663000A6DEDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F12DCFF21E7F663000A6DEDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12DCFF31E7F663000A6DEDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F12DCFF71E7F663000A6DEDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12DCFF81E7F663000A6DEDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F12DD0111E7F663000A6DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F12DD0121E7F663000A6DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F12DD0141E7F663000A6DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UNXUT4D3C;
+				INFOPLIST_FILE = ForestRun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carolinedavis.ForestRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F12DD0151E7F663000A6DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UNXUT4D3C;
+				INFOPLIST_FILE = ForestRun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carolinedavis.ForestRun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F12DD0171E7F663000A6DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2UNXUT4D3C;
+				INFOPLIST_FILE = ForestRunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carolinedavis.ForestRunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForestRun.app/ForestRun";
+			};
+			name = Debug;
+		};
+		F12DD0181E7F663000A6DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2UNXUT4D3C;
+				INFOPLIST_FILE = ForestRunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carolinedavis.ForestRunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForestRun.app/ForestRun";
+			};
+			name = Release;
+		};
+		F12DD01A1E7F663000A6DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2UNXUT4D3C;
+				INFOPLIST_FILE = ForestRunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carolinedavis.ForestRunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ForestRun;
+			};
+			name = Debug;
+		};
+		F12DD01B1E7F663000A6DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2UNXUT4D3C;
+				INFOPLIST_FILE = ForestRunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carolinedavis.ForestRunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ForestRun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F12DCFE01E7F663000A6DEDF /* Build configuration list for PBXProject "ForestRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12DD0111E7F663000A6DEDF /* Debug */,
+				F12DD0121E7F663000A6DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12DD0131E7F663000A6DEDF /* Build configuration list for PBXNativeTarget "ForestRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12DD0141E7F663000A6DEDF /* Debug */,
+				F12DD0151E7F663000A6DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F12DD0161E7F663000A6DEDF /* Build configuration list for PBXNativeTarget "ForestRunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12DD0171E7F663000A6DEDF /* Debug */,
+				F12DD0181E7F663000A6DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F12DD0191E7F663000A6DEDF /* Build configuration list for PBXNativeTarget "ForestRunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12DD01A1E7F663000A6DEDF /* Debug */,
+				F12DD01B1E7F663000A6DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F12DCFDD1E7F663000A6DEDF /* Project object */;
+}
