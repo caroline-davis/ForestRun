@@ -15,14 +15,14 @@
 		F12DCFF91E7F663000A6DEDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12DCFF71E7F663000A6DEDF /* LaunchScreen.storyboard */; };
 		F12DD0041E7F663000A6DEDF /* ForestRunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12DD0031E7F663000A6DEDF /* ForestRunTests.swift */; };
 		F12DD00F1E7F663000A6DEDF /* ForestRunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12DD00E1E7F663000A6DEDF /* ForestRunUITests.swift */; };
-		F12DD02A1E7F682200A6DEDF /* Run 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0221E7F682200A6DEDF /* Run 1.png */; };
-		F12DD02B1E7F682200A6DEDF /* Run 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0231E7F682200A6DEDF /* Run 2.png */; };
-		F12DD02C1E7F682200A6DEDF /* Run 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0241E7F682200A6DEDF /* Run 3.png */; };
-		F12DD02D1E7F682200A6DEDF /* Run 4.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0251E7F682200A6DEDF /* Run 4.png */; };
-		F12DD02E1E7F682200A6DEDF /* Run 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0261E7F682200A6DEDF /* Run 5.png */; };
-		F12DD02F1E7F682200A6DEDF /* Run 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0271E7F682200A6DEDF /* Run 6.png */; };
-		F12DD0301E7F682200A6DEDF /* Run 7.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0281E7F682200A6DEDF /* Run 7.png */; };
-		F12DD0311E7F682200A6DEDF /* Run 8.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0291E7F682200A6DEDF /* Run 8.png */; };
+		F12DD02A1E7F682200A6DEDF /* Player 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0221E7F682200A6DEDF /* Player 1.png */; };
+		F12DD02B1E7F682200A6DEDF /* Player 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0231E7F682200A6DEDF /* Player 2.png */; };
+		F12DD02C1E7F682200A6DEDF /* Player 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0241E7F682200A6DEDF /* Player 3.png */; };
+		F12DD02D1E7F682200A6DEDF /* Player 4.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0251E7F682200A6DEDF /* Player 4.png */; };
+		F12DD02E1E7F682200A6DEDF /* Player 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0261E7F682200A6DEDF /* Player 5.png */; };
+		F12DD02F1E7F682200A6DEDF /* Player 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0271E7F682200A6DEDF /* Player 6.png */; };
+		F12DD0301E7F682200A6DEDF /* Player 7.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0281E7F682200A6DEDF /* Player 7.png */; };
+		F12DD0311E7F682200A6DEDF /* Player 8.png in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0291E7F682200A6DEDF /* Player 8.png */; };
 		F12DD0331E7F811800A6DEDF /* GamePlayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F12DD0321E7F811800A6DEDF /* GamePlayScene.sks */; };
 		F12DD0351E7F814D00A6DEDF /* GamePlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12DD0341E7F814D00A6DEDF /* GamePlayScene.swift */; };
 		F12DD0381E7FA91600A6DEDF /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12DD0371E7FA91600A6DEDF /* Player.swift */; };
@@ -64,14 +64,14 @@
 		F12DD00A1E7F663000A6DEDF /* ForestRunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForestRunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12DD00E1E7F663000A6DEDF /* ForestRunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestRunUITests.swift; sourceTree = "<group>"; };
 		F12DD0101E7F663000A6DEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F12DD0221E7F682200A6DEDF /* Run 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 1.png"; sourceTree = "<group>"; };
-		F12DD0231E7F682200A6DEDF /* Run 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 2.png"; sourceTree = "<group>"; };
-		F12DD0241E7F682200A6DEDF /* Run 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 3.png"; sourceTree = "<group>"; };
-		F12DD0251E7F682200A6DEDF /* Run 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 4.png"; sourceTree = "<group>"; };
-		F12DD0261E7F682200A6DEDF /* Run 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 5.png"; sourceTree = "<group>"; };
-		F12DD0271E7F682200A6DEDF /* Run 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 6.png"; sourceTree = "<group>"; };
-		F12DD0281E7F682200A6DEDF /* Run 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 7.png"; sourceTree = "<group>"; };
-		F12DD0291E7F682200A6DEDF /* Run 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Run 8.png"; sourceTree = "<group>"; };
+		F12DD0221E7F682200A6DEDF /* Player 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 1.png"; sourceTree = "<group>"; };
+		F12DD0231E7F682200A6DEDF /* Player 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 2.png"; sourceTree = "<group>"; };
+		F12DD0241E7F682200A6DEDF /* Player 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 3.png"; sourceTree = "<group>"; };
+		F12DD0251E7F682200A6DEDF /* Player 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 4.png"; sourceTree = "<group>"; };
+		F12DD0261E7F682200A6DEDF /* Player 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 5.png"; sourceTree = "<group>"; };
+		F12DD0271E7F682200A6DEDF /* Player 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 6.png"; sourceTree = "<group>"; };
+		F12DD0281E7F682200A6DEDF /* Player 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 7.png"; sourceTree = "<group>"; };
+		F12DD0291E7F682200A6DEDF /* Player 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Player 8.png"; sourceTree = "<group>"; };
 		F12DD0321E7F811800A6DEDF /* GamePlayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GamePlayScene.sks; sourceTree = "<group>"; };
 		F12DD0341E7F814D00A6DEDF /* GamePlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayScene.swift; sourceTree = "<group>"; };
 		F12DD0371E7FA91600A6DEDF /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -196,14 +196,14 @@
 		F12DD01F1E7F676D00A6DEDF /* Player */ = {
 			isa = PBXGroup;
 			children = (
-				F12DD0221E7F682200A6DEDF /* Run 1.png */,
-				F12DD0231E7F682200A6DEDF /* Run 2.png */,
-				F12DD0241E7F682200A6DEDF /* Run 3.png */,
-				F12DD0251E7F682200A6DEDF /* Run 4.png */,
-				F12DD0261E7F682200A6DEDF /* Run 5.png */,
-				F12DD0271E7F682200A6DEDF /* Run 6.png */,
-				F12DD0281E7F682200A6DEDF /* Run 7.png */,
-				F12DD0291E7F682200A6DEDF /* Run 8.png */,
+				F12DD0221E7F682200A6DEDF /* Player 1.png */,
+				F12DD0231E7F682200A6DEDF /* Player 2.png */,
+				F12DD0241E7F682200A6DEDF /* Player 3.png */,
+				F12DD0251E7F682200A6DEDF /* Player 4.png */,
+				F12DD0261E7F682200A6DEDF /* Player 5.png */,
+				F12DD0271E7F682200A6DEDF /* Player 6.png */,
+				F12DD0281E7F682200A6DEDF /* Player 7.png */,
+				F12DD0291E7F682200A6DEDF /* Player 8.png */,
 			);
 			name = Player;
 			sourceTree = "<group>";
@@ -335,17 +335,17 @@
 			files = (
 				F12DD0331E7F811800A6DEDF /* GamePlayScene.sks in Resources */,
 				F12DCFF41E7F663000A6DEDF /* Main.storyboard in Resources */,
-				F12DD02D1E7F682200A6DEDF /* Run 4.png in Resources */,
-				F12DD02B1E7F682200A6DEDF /* Run 2.png in Resources */,
-				F12DD02F1E7F682200A6DEDF /* Run 6.png in Resources */,
-				F12DD0301E7F682200A6DEDF /* Run 7.png in Resources */,
+				F12DD02D1E7F682200A6DEDF /* Player 4.png in Resources */,
+				F12DD02B1E7F682200A6DEDF /* Player 2.png in Resources */,
+				F12DD02F1E7F682200A6DEDF /* Player 6.png in Resources */,
+				F12DD0301E7F682200A6DEDF /* Player 7.png in Resources */,
 				F12DCFF61E7F663000A6DEDF /* Assets.xcassets in Resources */,
-				F12DD02C1E7F682200A6DEDF /* Run 3.png in Resources */,
+				F12DD02C1E7F682200A6DEDF /* Player 3.png in Resources */,
 				F12DD03C1E7FA94200A6DEDF /* MainMenuScene.sks in Resources */,
 				F12DCFF91E7F663000A6DEDF /* LaunchScreen.storyboard in Resources */,
-				F12DD02A1E7F682200A6DEDF /* Run 1.png in Resources */,
-				F12DD02E1E7F682200A6DEDF /* Run 5.png in Resources */,
-				F12DD0311E7F682200A6DEDF /* Run 8.png in Resources */,
+				F12DD02A1E7F682200A6DEDF /* Player 1.png in Resources */,
+				F12DD02E1E7F682200A6DEDF /* Player 5.png in Resources */,
+				F12DD0311E7F682200A6DEDF /* Player 8.png in Resources */,
 				F12DCFED1E7F663000A6DEDF /* Actions.sks in Resources */,
 				F12DD03E1E7FAA2D00A6DEDF /* HighscoreScene.sks in Resources */,
 			);

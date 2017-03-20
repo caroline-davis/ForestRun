@@ -25,7 +25,17 @@ class GamePlayScene: SKScene {
     func initialize() {
         createBackground()
         createGround()
+        createPlayer()
     }
+    
+    // adds the player child to the scene
+    func createPlayer() {
+        player = Player(imageNamed: "Player 1");
+        player.initialize();
+        player.position = CGPoint(x: -10, y: -(self.frame.size.height / 2) + 200);
+        self.addChild(player);
+    }
+
     
     func createBackground() {
         // have to remember this for the infinite background scroller!!!
