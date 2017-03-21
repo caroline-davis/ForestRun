@@ -30,6 +30,8 @@
 		F12DD03C1E7FA94200A6DEDF /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F12DD03B1E7FA94200A6DEDF /* MainMenuScene.sks */; };
 		F12DD03E1E7FAA2D00A6DEDF /* HighscoreScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F12DD03D1E7FAA2D00A6DEDF /* HighscoreScene.sks */; };
 		F12DD0401E7FAA4700A6DEDF /* HighscoreScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12DD03F1E7FAA4700A6DEDF /* HighscoreScene.swift */; };
+		F14C60EA1E80CF5800B96B5B /* Background music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F14C60E91E80CF5800B96B5B /* Background music.mp3 */; };
+		F14C60EC1E80CFE100B96B5B /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C60EB1E80CFE100B96B5B /* Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		F12DD03B1E7FA94200A6DEDF /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
 		F12DD03D1E7FAA2D00A6DEDF /* HighscoreScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = HighscoreScene.sks; sourceTree = "<group>"; };
 		F12DD03F1E7FAA4700A6DEDF /* HighscoreScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighscoreScene.swift; sourceTree = "<group>"; };
+		F14C60E91E80CF5800B96B5B /* Background music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Background music.mp3"; sourceTree = "<group>"; };
+		F14C60EB1E80CFE100B96B5B /* Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,7 @@
 		F12DD01D1E7F674000A6DEDF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F14C60ED1E80D02100B96B5B /* Audio */,
 				F12DD0361E7FA90B00A6DEDF /* Player */,
 				F12DD0341E7F814D00A6DEDF /* GamePlayScene.swift */,
 				F12DD0391E7FA92A00A6DEDF /* MainMenuScene.swift */,
@@ -211,6 +216,7 @@
 		F12DD0201E7F677200A6DEDF /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				F14C60E91E80CF5800B96B5B /* Background music.mp3 */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -221,6 +227,14 @@
 				F12DD0371E7FA91600A6DEDF /* Player.swift */,
 			);
 			name = Player;
+			sourceTree = "<group>";
+		};
+		F14C60ED1E80D02100B96B5B /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				F14C60EB1E80CFE100B96B5B /* Audio.swift */,
+			);
+			name = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +350,7 @@
 				F12DD0331E7F811800A6DEDF /* GamePlayScene.sks in Resources */,
 				F12DCFF41E7F663000A6DEDF /* Main.storyboard in Resources */,
 				F12DD02D1E7F682200A6DEDF /* Player 4.png in Resources */,
+				F14C60EA1E80CF5800B96B5B /* Background music.mp3 in Resources */,
 				F12DD02B1E7F682200A6DEDF /* Player 2.png in Resources */,
 				F12DD02F1E7F682200A6DEDF /* Player 6.png in Resources */,
 				F12DD0301E7F682200A6DEDF /* Player 7.png in Resources */,
@@ -378,6 +393,7 @@
 				F12DD0401E7FAA4700A6DEDF /* HighscoreScene.swift in Sources */,
 				F12DCFF11E7F663000A6DEDF /* GameViewController.swift in Sources */,
 				F12DCFE91E7F663000A6DEDF /* AppDelegate.swift in Sources */,
+				F14C60EC1E80CFE100B96B5B /* Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,6 +642,7 @@
 				F12DD0151E7F663000A6DEDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F12DD0161E7F663000A6DEDF /* Build configuration list for PBXNativeTarget "ForestRunTests" */ = {
 			isa = XCConfigurationList;
@@ -634,6 +651,7 @@
 				F12DD0181E7F663000A6DEDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F12DD0191E7F663000A6DEDF /* Build configuration list for PBXNativeTarget "ForestRunUITests" */ = {
 			isa = XCConfigurationList;
@@ -642,6 +660,7 @@
 				F12DD01B1E7F663000A6DEDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
