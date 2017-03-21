@@ -28,19 +28,30 @@ class Player: SKSpriteNode {
         self.name = "Player"
         self.zPosition = 4
         self.anchorPoint = CGPoint(x: 0.5, y: 0.5);
-        self.setScale(0.5)
+        self.setScale(0.4)
         
         // add physics body stuff
+        self.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: self.size.width - 20, height: self.size.height - 10))
+        self.physicsBody?.affectedByGravity = true
+        self.physicsBody?.allowsRotation = false
+        self.physicsBody?.categoryBitMask = Collider.Player
+        self.physicsBody?.collisionBitMask = Collider.Obstacle | Collider.Ground
+        self.physicsBody?.contactTestBitMask = Collider.Obstacle | Collider.Ground
    
         runAnimation.append(SKTexture(imageNamed: name))
     }
         
         // this sets up the walking animation
-    let animation = SKAction.animate(with: runAnimation, timePerFrame: TimeInterval(0.064), resize:true, restore: true);
+    let animation = SKAction.animate(with: runAnimation, timePerFrame: TimeInterval(0.09), resize: true, restore: true)
         
         // this loops it forever and allows it to run
      self.run(SKAction.repeatForever(animation))
         
+    }
+    
+    func jump() {
+        self.physicsBody?.velocity = CGVector(dx: 0, dy: 0);
+        self.physicsBody?.applyImpulse(CGVector(dx: 0, dy: 1240));
     }
     
 }

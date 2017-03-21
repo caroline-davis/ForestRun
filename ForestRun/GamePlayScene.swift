@@ -9,9 +9,11 @@
 import SpriteKit
 
 
-class GamePlayScene: SKScene {
+class GamePlayScene: SKScene, SKPhysicsContactDelegate {
     
     var player = Player()
+    
+  //  var canJump = true
     
     override func didMove(to view: SKView) {
         initialize()
@@ -22,7 +24,42 @@ class GamePlayScene: SKScene {
          movingBackgroundsAndGrounds()
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        for touch in touches {
+            
+        let location = touch.location(in: self)
+        
+        player.jump()
+        }
+    }
+    
+    func didBegin(_ contact: SKPhysicsContact) {
+            var firstBody = SKPhysicsBody();
+            var secondBody = SKPhysicsBody();
+            
+            if contact.bodyA.node?.name == "Player" {
+                firstBody = contact.bodyA;
+                secondBody = contact.bodyB;
+            } else {
+                firstBody = contact.bodyB;
+                secondBody = contact.bodyA;
+            }
+        
+        if firstBody.node?.name == "Player" && secondBody.node?.name == "Ground" {
+          //  player.jump()
+        }
+        
+        if firstBody.node?.name == "Player" && secondBody.node?.name == "Obstacle" {
+ 
+            }
+            
+        }
+
+    
     func initialize() {
+        
+        physicsWorld.contactDelegate = self
         createBackground()
         createGround()
         createPlayer()
@@ -32,7 +69,7 @@ class GamePlayScene: SKScene {
     func createPlayer() {
         player = Player(imageNamed: "Player 1");
         player.initialize();
-        player.position = CGPoint(x: -10, y: -(self.frame.size.height / 2) + 200);
+        player.position = CGPoint(x: -30, y: -(self.frame.size.height / 2) + 160);
         self.addChild(player);
     }
 
@@ -61,6 +98,12 @@ class GamePlayScene: SKScene {
         ground.position = CGPoint(x: CGFloat(i) * ground.size.width, y: -(self.frame.size.height / 2))
         ground.setScale(1.5)
         ground.zPosition = 2
+            
+        //physicsbody stuff
+            ground.physicsBody = SKPhysicsBody(rectangleOf: ground.size)
+            ground.physicsBody?.affectedByGravity = false
+            ground.physicsBody?.isDynamic = false
+            ground.physicsBody?.categoryBitMask = Collider.Ground
         
         self.addChild(ground)
         }
