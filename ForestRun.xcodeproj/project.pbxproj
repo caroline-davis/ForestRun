@@ -32,6 +32,7 @@
 		F12DD0401E7FAA4700A6DEDF /* HighscoreScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12DD03F1E7FAA4700A6DEDF /* HighscoreScene.swift */; };
 		F14C60EA1E80CF5800B96B5B /* Background music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F14C60E91E80CF5800B96B5B /* Background music.mp3 */; };
 		F14C60EC1E80CFE100B96B5B /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C60EB1E80CFE100B96B5B /* Audio.swift */; };
+		F14C60F31E810CE700B96B5B /* ChalkboardSE-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F14C60F21E810CE700B96B5B /* ChalkboardSE-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		F12DD03F1E7FAA4700A6DEDF /* HighscoreScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighscoreScene.swift; sourceTree = "<group>"; };
 		F14C60E91E80CF5800B96B5B /* Background music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Background music.mp3"; sourceTree = "<group>"; };
 		F14C60EB1E80CFE100B96B5B /* Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		F14C60F21E810CE700B96B5B /* ChalkboardSE-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChalkboardSE-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 		F12DD01C1E7F672100A6DEDF /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				F14C60EF1E80FC6100B96B5B /* Fonts */,
 				F12DD0201E7F677200A6DEDF /* Sounds */,
 				F12DD01F1E7F676D00A6DEDF /* Player */,
 			);
@@ -235,6 +238,14 @@
 				F14C60EB1E80CFE100B96B5B /* Audio.swift */,
 			);
 			name = Audio;
+			sourceTree = "<group>";
+		};
+		F14C60EF1E80FC6100B96B5B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F14C60F21E810CE700B96B5B /* ChalkboardSE-Bold.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,6 +368,7 @@
 				F12DCFF61E7F663000A6DEDF /* Assets.xcassets in Resources */,
 				F12DD02C1E7F682200A6DEDF /* Player 3.png in Resources */,
 				F12DD03C1E7FA94200A6DEDF /* MainMenuScene.sks in Resources */,
+				F14C60F31E810CE700B96B5B /* ChalkboardSE-Bold.ttf in Resources */,
 				F12DCFF91E7F663000A6DEDF /* LaunchScreen.storyboard in Resources */,
 				F12DD02A1E7F682200A6DEDF /* Player 1.png in Resources */,
 				F12DD02E1E7F682200A6DEDF /* Player 5.png in Resources */,

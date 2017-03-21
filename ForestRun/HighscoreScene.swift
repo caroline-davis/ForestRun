@@ -40,6 +40,7 @@ class HighscoreScene: SKScene {
     
     func initialize() {
         createBack()
+        createScore()
     }
     
     func createBack() {
@@ -51,6 +52,20 @@ class HighscoreScene: SKScene {
         self.addChild(back)
     }
     
+    func createScore() {
+        
+        let highScore = SKLabelNode(fontNamed: "ChalkboardSE-Bold")
+        
+        highScore.fontSize = 120
+        highScore.fontColor = .black
+        highScore.text = "20"
+        highScore.position = CGPoint(x: 0, y: -145)
+        highScore.zPosition = 3
+        
+        self.addChild(highScore)
+        
+        
+    }
     
     
 }
