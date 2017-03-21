@@ -10,12 +10,46 @@ import SpriteKit
 
 class HighscoreScene: SKScene {
     
+    var back = SKSpriteNode(imageNamed: "Back")
     
     override func didMove(to view: SKView) {
-        
+        initialize()
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
     
+        for touch in touches {
+            
+            let location = touch.location(in: self)
+            
+            // opens highscoreScene
+            if atPoint(location) == back {
+                if let scene = MainMenuScene(fileNamed: "MainMenuScene") {
+                    // Set the scale mode to scale to fit the window
+                    scene.scaleMode = .aspectFill
+                    
+                    // Present the scene
+                    view?.presentScene(scene)
+                }
+                
+            }
+            
+        }
+    
+    }
+    
+    func initialize() {
+        createBack()
+    }
+    
+    func createBack() {
+        
+        back.position = CGPoint(x: -550, y: -320)
+        back.anchorPoint = CGPoint(x: 0.5, y: 0.5)
+        back.zPosition = 3
+        
+        self.addChild(back)
+    }
     
     
     

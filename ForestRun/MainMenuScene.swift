@@ -30,6 +30,32 @@ class MainMenuScene: SKScene {
             
             let location = touch.location(in: self)
             
+            // open gameplayScene
+            if atPoint(location) == playButton {
+                if let scene = GamePlayScene(fileNamed: "GamePlayScene") {
+                    // Set the scale mode to scale to fit the window
+                    scene.scaleMode = .aspectFill
+            
+                    // Present the scene
+                    view?.presentScene(scene)
+                }
+                
+            }
+            
+            // opens highscoreScene
+            if atPoint(location) == scoreButton {
+                if let scene = HighscoreScene(fileNamed: "HighscoreScene") {
+                    // Set the scale mode to scale to fit the window
+                    scene.scaleMode = .aspectFill
+                    
+                    // Present the scene
+                    view?.presentScene(scene)
+                }
+
+            }
+
+            
+            // if player touches the sound button
             if atPoint(location) == sound {
                 if musicPlaying == true {
                     AudioManager.instance.stopBgMusic()
@@ -40,12 +66,10 @@ class MainMenuScene: SKScene {
                     sound.texture = soundOff
                     musicPlaying = true
                 }
-                
-                // open gameplayscene
             }
             
-        }
-    }
+        } // for touch in touches end.
+    } //touches began end.
     
     
     func initialize() {

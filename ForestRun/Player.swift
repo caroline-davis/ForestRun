@@ -49,6 +49,8 @@ class Player: SKSpriteNode {
         
     }
     
+    // ***TO DO**** the jump needs help, the player jumps too high and jumps off the air.
+    // need to make player only jump once off ground. bools and such.
     func jump() {
         self.physicsBody?.velocity = CGVector(dx: 0, dy: 0);
         self.physicsBody?.applyImpulse(CGVector(dx: 0, dy: 1240));
